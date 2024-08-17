@@ -1,0 +1,1 @@
+.leaflet-control-basemap{border-radius:12px;box-shadow:0 0 5px rgba(0,0,0,.4);height:110px;position:relative;width:110px}.basemap-img{background-color:transparent;background-position:50%;background-size:cover;border-radius:10px;cursor:pointer;height:100%;overflow:hidden;transition:opacity .5s ease,transform .5s ease;width:100%}.basemap-img.loading{opacity:0;transform:scale(.95)}
