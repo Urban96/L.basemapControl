@@ -11,7 +11,7 @@ A Leaflet plugin that provides a customizable basemap control for switching betw
 
 ## Demo
 
-Check out a live demo of the plugin in action: [example/example1.html](https://urban96.github.io/L.basemapControl/example/example1.html)
+Check out a live demo of the plugin in action: [examples/example1.html](https://urban96.github.io/L.basemapControl/examples/example1.html)
 
 
 ## Example usage
