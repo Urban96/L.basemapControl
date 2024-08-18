@@ -1,6 +1,6 @@
 # L.basemapControl
 
-![Screenshot of the plugin](examples/images/image1.png)
+[![Screenshot of the plugin](examples/images/image1.png)](https://urban96.github.io/L.basemapControl/examples/example1.html)
 
 L.basemapControl is a Leaflet plugin that adds a control for switching between multiple basemap layers. It allows users to seamlessly toggle between different predefined map layers, providing a synchronized minimap preview of the next basemap in the sequence.
 
