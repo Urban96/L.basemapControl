@@ -1,12 +1,15 @@
 # L.basemapControl
 
-A Leaflet plugin that provides a customizable basemap control for switching between different map layers. This plugin adds a new control to your Leaflet map, allowing users to switch between predefined basemaps with a simple click.
+![Screenshot of the plugin](examples/images/image1.png)
+
+L.basemapControl is a Leaflet plugin that adds a control for switching between multiple basemap layers. It allows users to seamlessly toggle between different predefined map layers, providing a synchronized minimap preview of the next basemap in the sequence.
 
 ## Features
 
-- Easily switch between multiple basemap layers.
-- Preview the next basemap layer before applying it.
-- Customizable layer options and control position.
+- **Basemap Switching**: Enables users to easily switch between various basemap layers with a single click. Each basemap layer can be customized with specific tile providers.
+- **Layer Preview**: The plugin offers a synchronized minimap that previews the next basemap layer in the sequence. The minimap reflects the current center and zoom level of the main map. Clicking on the minimap changes the active basemap layer to the one shown in the preview.
+- **Customizable Control**: The control position and the set of layers can be customized according to the needs of the application. The plugin also handles errors in layer loading and allows for programmatic changes of the active basemap.
+
 
 
 ## Demo

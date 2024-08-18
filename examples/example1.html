@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leaflet Basemap Control</title>
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="../dist/L.basemapControl.min.css" />
 
   <style>
@@ -21,7 +21,7 @@
 <body>
   <div id="map"></div>
 
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="../dist/L.basemapControl.min.js"></script>
 
   <script>
@@ -54,9 +54,9 @@
     }).addTo(map);
 
     //Basemap layer change manually after 3 seconds
-    setTimeout(() => {
-      basemapControl.changeBasemap(1); //Basemap layer index
-    }, 3000);
+    // setTimeout(() => {
+    //   basemapControl.changeBasemap(1); //Basemap layer index
+    // }, 3000);
 
     //Basemap layer change event
     map.on('basemapChange', function (e) {

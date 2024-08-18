@@ -11,6 +11,8 @@ L.BasemapControl = L.Control.extend({
         var container = L.DomUtil.create('div', 'leaflet-control-basemap');
         this._img = L.DomUtil.create('div', 'basemap-img', container);
 
+        L.DomEvent.disableClickPropagation(container);
+
         this._switchMap = L.map(container, {
             zoomControl: false,
             attributionControl: false,
@@ -67,7 +69,9 @@ L.BasemapControl = L.Control.extend({
         var center = this._map.getCenter();
         var zoom = this._map.getZoom();
 
-        this._switchMap.setView(center, zoom - 4);
+        var previewZoom = Math.max(zoom - 3, 0);
+
+        this._switchMap.setView(center, previewZoom);
 
         var nextIndex = (this._currentIndex + 1) % this.options.layers.length;
         var nextLayer = this.options.layers[nextIndex].layer;

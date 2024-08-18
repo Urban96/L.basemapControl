@@ -1,12 +1,12 @@
 {
     "name": "l.basemapcontrol",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Leaflet plugin that allows users to easily switch between multiple basemap layers with a simple preview control.",
     "main": "src/L.basemapControl.js",
     "author": "Daniel Urban",
     "license": "MIT",
     "peerDependencies": {
-        "leaflet": "^1.7.1"
+        "leaflet": "^1.9.4"
     },
     "directories": {
         "example": "examples"
